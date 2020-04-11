@@ -1,0 +1,13 @@
+# Paramètres Automator :
+# Shell Script
+# /usr/bin/python
+# Pass input : as argument
+
+from time import sleep
+import os
+os.system ("killall ScriptMonitor")
+
+while True:
+	sleep(0.0003)
+# Augmenter valeur pour diminuer CPU usage.
+# Crash à 0.0004
